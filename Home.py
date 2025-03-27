@@ -1,7 +1,6 @@
 import streamlit as st
 
 def landing_page():
-    # Dark Mode Custom CSS
     st.markdown("""
     <style>
     .stApp {
