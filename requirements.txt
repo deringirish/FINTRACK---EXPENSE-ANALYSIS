@@ -4,8 +4,4 @@ streamlit_back_camera_input
 dotenv
 google
 google.generativeai
-streamlit-javascript
-streamlit-webrtc
-opencv-python-headless
 numpy
-streamlit-opencv
