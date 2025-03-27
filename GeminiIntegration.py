@@ -9,7 +9,7 @@ load_dotenv()
 GEMINI_KEY = os.getenv("GEMINI_KEY")
 
 try:
-    genai.configure(api_key=GEMINI_KEY)
+    genai.configure(api_key=st.secrets("GEMINI_KEY "))
 except Exception as e:
     st.error(f"Failed to configure Gemini API: {e}")
 
