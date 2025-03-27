@@ -10,12 +10,9 @@ st.set_page_config(
     page_icon="https://github.com/deringirish/DevOpsTesing/blob/main/confluence.jpeg?raw=true",
     layout="wide",
     initial_sidebar_state="collapsed"
-
 )
 
-
 def streamlit_menu():
-
     selected = option_menu(
         menu_title=None,
         options=["Home", "Projects", "Contact"],
@@ -28,12 +25,9 @@ def streamlit_menu():
 
 
 selected = streamlit_menu()
-
 if selected == "Home":
     Home.landing_page()
 if selected == "Projects":
     ScanRecipt.ScanReceipt()
 if selected == "Contact":
-    # st.title(f"You have selected {selected}")
-    # Contact.contact_page()
     About.about_us_page()
